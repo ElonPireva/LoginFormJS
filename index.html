@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login using JSS</title>
+</head>
+<body>
+    <section class="loginPage">
+        <div class="loginForm">
+            <form action="/index.html" method="post" id='myForm'>
+                <i class="fa fa-user" aria-hidden="true" id="userIcon"></i>
+                <div id="msg"></div>
+                <input type="text" id="name" placeholder="Your Name" autocomplete="off" required="true">
+                <span id="showName"></span>
+                <input type="text" id="email" placeholder="Email" autocomplete="off" required="true">
+                <span id="showMail"></span>
+                <input type="password" id="password" placeholder="Password" required="true" autocomplete="off">
+                <input type="checkbox" id="check" style="outline: none;">
+                <span id="showPw"></span>
+                <input type="button" value="Login" id="submit"> 
+            </form>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
